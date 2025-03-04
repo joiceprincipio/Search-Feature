@@ -1,4 +1,4 @@
-alert("Hello my name is Joice Principio and this is my CV");
+alert("Hello! my name is Joice Principio and this is my curriculum vitae")
 
 const jsonURL = "https://joiceprincipio.github.io/Courses/Courses.json";
 
