@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Principio, Joice C.</title>
+    <link rel="stylesheet" href="CV.css" />
+    <script src="CV.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
+    </div>
+
+    <img src="Assets/me.jpg" alt="My photo" />
+    <p>I am an image and i am all by myself</p>
+
+    <div class="page-content">
+      <div class="card" id="about">
+        <p class="card-header">About</p>
+        <p class="card-body" id="para1">Hello! Tell us about yourself.</p>
+      </div>
+
+      <div class="card" id="education">
+        <p class="card-header">Education</p>
+        <p class="card-body" id="para2">Tell us about your education</p>
+      </div>
+
+      <div class="card" id="skills">
+        <p class="card-header">Skills</p>
+        <p class="card-body" id="para3">Tell us about your IT Skills></p>
+      </div>
+
+      <div class="card" id="portfolio">
+        <p class="card-header">Portfolio</p>
+        <div class="search">
+          <input
+            type="text"
+            id="searchbar"
+            placeholder="Search Course..."
+            onkeyup="searchCourses()"
+          />
+        </div>
+        <ul id="course-list" class="card-body"></ul>
+      </div>
+    </div>
+    <br />
+  </body>
+  <footer>I am footer the last part of this page</footer>
+</html>
